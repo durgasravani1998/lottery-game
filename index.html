@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I have got a Gift</title>
+    <!-- <script defer src="Script.js"></script> -->
+    <style>
+      h1 {
+        /* margin: auto; */
+        display: flex;
+        justify-content: center;
+      }
+      .lottery-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .box {
+        width: 180px;
+        height: 40px;
+        background-color: rgb(243, 243, 88);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+      }
+      .lottery-sheet-container {
+        width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px 20px;
+      }
+      .winningBox {
+        background-color: green;
+        color: white;
+      }
+      .highlightedBox {
+        border: 5px solid red;
+      }
+      #pickNumberBtn {
+        background-color: green;
+        border: none;
+        padding: 10px 30px;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+      }
+      #pickNumberBtn:hover {
+        background-color: rgb(17, 87, 17);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lottery Game</h1>
+
+    <div class="lottery-container">
+      <div class="lottery-sheet-container" id="lotterySheetContainer">
+        <!-- <div class="box winningBox" >first box</div> -->
+        <!-- <div id="box">cake</div>
+        <div id="box">biscuit</div>
+        <div id="box">chocolate</div>
+        <div id="box">milkshake</div> -->
+      </div>
+      <h2 id="result">Click the below button</h2>
+      <button id="pickNumberBtn">Pick a Number</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
