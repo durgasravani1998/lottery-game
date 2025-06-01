@@ -1,0 +1,113 @@
+/* Base styles */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  margin: 20px 0;
+  /* margin-top: 25px; */
+}
+
+.lottery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.lottery-sheet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 10px;
+}
+
+.box {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(243, 243, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.winningBox {
+  background-color: green;
+  color: white;
+}
+
+.highlightedBox {
+  border: 5px solid red;
+}
+
+#pickNumberBtn {
+  background-color: green;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#pickNumberBtn:hover {
+  background-color: rgb(17, 87, 17);
+}
+
+/* Medium screens (tablets) */
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .box {
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+  }
+
+  .highlightedBox {
+    border: 4px solid red;
+  }
+
+  #pickNumberBtn {
+    padding: 8px 25px;
+    font-size: 15px;
+  }
+}
+
+/* Small screens (phones) */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .lottery-sheet-container {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .box {
+    width: 100px;
+    height: 30px;
+    font-size: 11px;
+  }
+
+  .highlightedBox {
+    border: 3px solid red;
+  }
+
+  #pickNumberBtn {
+    padding: 6px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+}

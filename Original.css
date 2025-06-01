@@ -1,0 +1,155 @@
+/* h1 {
+  /* margin: auto; */
+  /* display: flex;
+  justify-content: center;
+}
+.lottery-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(243, 243, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  /* font-size: 20px; */
+  margin: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+.lottery-sheet-container {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 20px;
+}
+.winningBox {
+  background-color: green;
+  color: white;
+}
+.highlightedBox {
+  border: 5px solid red;
+}
+#pickNumberBtn {
+  background-color: green;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+}
+#pickNumberBtn:hover {
+  background-color: rgb(17, 87, 17);
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+  .lottery-container {
+    width: 768px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lottery-sheet-container {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3px 10px;
+  }
+  .box {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(243, 243, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* font-size: 20px; */
+    margin: 3px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .winningBox {
+    background-color: green;
+    color: white;
+  }
+  .highlightedBox {
+    border: 3px solid red;
+  }
+  #pickNumberBtn {
+    background-color: green;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+  }
+  #pickNumberBtn:hover {
+    background-color: rgb(17, 87, 17);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .lottery-container {
+    width: 992px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .lottery-sheet-container {
+    min-width: 800px;
+    max-width: 992px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 15px;
+  }
+  .box {
+    width: 150px;
+    height: 35px;
+    background-color: rgb(243, 243, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    /* font-size: 20px; */
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .winningBox {
+    background-color: green;
+    color: white;
+  }
+  .highlightedBox {
+    border: 4px solid red;
+  }
+  #pickNumberBtn {
+    background-color: green;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+  }
+  #pickNumberBtn:hover {
+    background-color: rgb(17, 87, 17);
+  }
+} */ */
